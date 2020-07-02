@@ -1,0 +1,14 @@
+html{
+	margin:50px;
+	font-family: arial;
+}
+
+hr{
+	width: 400px;
+	color: black;
+}
+
+.footer{
+	text-align: center;
+	font-weight: bold;
+}
