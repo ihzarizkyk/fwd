@@ -1,0 +1,32 @@
+==== Penjelasan Mengenai HTML ====
+
+HTML atau Hypertext Markup Language adalah sebuah bahasa markup
+yang berfungsi untuk membuat kerangka website.
+HTML Merupakan hal yang wajib dikuasai oleh pengembang website yang
+memang mau terjun ke dunia web programming.
+
+HTML ditulis dengan tag pembuka dan tag penutup
+
+Contoh (Kerangka Dasar HTML) : 
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>INI TAG JUDUL</title>
+</head>
+<body>
+INI TAG BODY
+<p>
+.... INI TAG PARAGRAF
+</p>
+
+</body>
+</html>
+
+Cara menjalankan file html :
+
+- buat file latihan.html
+- buat kerangka dasar HTML dan lalu save
+- Jika menggunakan Sublime Text. 
+- Klik kanan dan klik Open in browser
+
