@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LocalStorage HTML5 - FWD</title>
+<script>
+	function save()
+	{
+		var storage = document.getElementById('inputan').value;
+		localStorage.setItem('Text',storage);
+	}
+
+	function show()
+	{
+		var showinputan = localStorage.getItem('Text');
+		if(showinputan)
+		{
+			sw = document.getElementById('show');
+			sw.innerHTML=showinputan;
+		}
+	}
+
+	function del()
+	{
+		localStorage.removeItem('Text');
+	}
+
+</script>
+</head>
+<body>
+
+<!--Local Storage HTML5-->
+
+<h1>
+	Inputan Teks
+</h1>
+<input type="text" id="inputan">
+&nbsp;&nbsp;
+<input type="button" value="SIMPAN" onclick="save()">
+&nbsp;&nbsp;
+<input type="button" value="TAMPILKAN" onclick="show()">
+&nbsp;&nbsp;
+<input type="button" value="HAPUS" onclick="del()">
+<br>
+<p id="show"></p>
+
+</body>
+</html>
